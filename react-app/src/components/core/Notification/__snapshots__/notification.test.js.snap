@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification when it\`s error type should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <ErrorIcon />
+    <styled.div>
+      <styled.span>
+        It\`s error
+      </styled.span>
+    </styled.div>
+  </styled.div>
+  <Styled(CloseIcon) />
+</styled.div>
+`;
+
+exports[`Notification when it\`s info type should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <InfoIcon />
+    <styled.div>
+      <styled.span>
+        Please note
+      </styled.span>
+    </styled.div>
+  </styled.div>
+  <Styled(CloseIcon) />
+</styled.div>
+`;
+
+exports[`Notification when it\`s success type should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <SuccessIcon />
+    <styled.div>
+      <styled.span>
+        Wow, it\`s fine
+      </styled.span>
+    </styled.div>
+  </styled.div>
+  <Styled(CloseIcon) />
+</styled.div>
+`;
+
+exports[`Notification when it\`s warning type should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <WarningIcon />
+    <styled.div>
+      <styled.span>
+        Attention
+      </styled.span>
+    </styled.div>
+  </styled.div>
+  <Styled(CloseIcon) />
+</styled.div>
+`;

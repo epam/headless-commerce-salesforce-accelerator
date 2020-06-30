@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PDP Carousel should match snapshot 1`] = `
+<styled.div
+  className="carousel-wrapper"
+  withArrows={false}
+>
+  <MainSlider
+    images={
+      Array [
+        Object {
+          "absURL": "https://epamsystems06-alliance-prtnr-eu02-dw.demandware.net/on/demandware.static/-/Sites-apparel-m-catalog/default/dw6eda398f/images/large/PG.10221706.JJ0DCXX.PZ.jpg",
+          "alt": "3/4 Sleeve V-Neck Top, , large",
+          "index": "0",
+          "title": "3/4 Sleeve V-Neck Top, ",
+          "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw6eda398f/images/large/PG.10221706.JJ0DCXX.PZ.jpg",
+        },
+        Object {
+          "absURL": "https://epamsystems06-alliance-prtnr-eu02-dw.demandware.net/on/demandware.static/-/Sites-apparel-m-catalog/default/dw8d015ba2/images/large/PG.10221706.JJ0DCXX.BZ.jpg",
+          "alt": "3/4 Sleeve V-Neck Top, , large",
+          "index": "1",
+          "title": "3/4 Sleeve V-Neck Top, ",
+          "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw8d015ba2/images/large/PG.10221706.JJ0DCXX.BZ.jpg",
+        },
+      ]
+    }
+    secondarySlider={
+      Object {
+        "slickNext": [Function],
+        "slickPrev": [Function],
+      }
+    }
+    setMainSlider={[Function]}
+  />
+  <SecondarySlider
+    images={
+      Array [
+        Object {
+          "absURL": "https://epamsystems06-alliance-prtnr-eu02-dw.demandware.net/on/demandware.static/-/Sites-apparel-m-catalog/default/dw6eda398f/images/large/PG.10221706.JJ0DCXX.PZ.jpg",
+          "alt": "3/4 Sleeve V-Neck Top, , large",
+          "index": "0",
+          "title": "3/4 Sleeve V-Neck Top, ",
+          "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw6eda398f/images/large/PG.10221706.JJ0DCXX.PZ.jpg",
+        },
+        Object {
+          "absURL": "https://epamsystems06-alliance-prtnr-eu02-dw.demandware.net/on/demandware.static/-/Sites-apparel-m-catalog/default/dw8d015ba2/images/large/PG.10221706.JJ0DCXX.BZ.jpg",
+          "alt": "3/4 Sleeve V-Neck Top, , large",
+          "index": "1",
+          "title": "3/4 Sleeve V-Neck Top, ",
+          "url": "/on/demandware.static/-/Sites-apparel-m-catalog/default/dw8d015ba2/images/large/PG.10221706.JJ0DCXX.BZ.jpg",
+        },
+      ]
+    }
+    mainSlider={
+      Object {
+        "slickGoTo": [Function],
+      }
+    }
+    setSecondarySlider={[Function]}
+    slidesAmount={6}
+    withArrows={false}
+  />
+</styled.div>
+`;

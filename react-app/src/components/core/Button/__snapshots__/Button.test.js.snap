@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match snapshot 1`] = `
+<styled.button
+  disabled={false}
+  isIconOnly={true}
+  link={false}
+  plain={false}
+  size="lg"
+  type="text"
+/>
+`;

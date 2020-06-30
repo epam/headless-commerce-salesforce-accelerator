@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTileContent should match snapshot 1`] = `
+<styled.div
+  className="product-wrapper"
+>
+  <div
+    className="product-tile"
+  >
+    <Link
+      to="/product/25050730M"
+    >
+      <div
+        className="image-container"
+      >
+        <div
+          className="product-id"
+        >
+          25050730M
+        </div>
+        <img
+          alt="Platinum Red Stripes Easy Care Fitted Shirt, , medium"
+          className="image"
+          src="https://epamsystems04-alliance-prtnr-eu02-dw.demandware.net/on/demandware.static/-/Sites-apparel-m-catalog/default/dw19040951/images/medium/PG.10123426.JJ8WXXX.PZ.jpg"
+        />
+      </div>
+    </Link>
+    <div
+      className="rating"
+    >
+      <WithStyles(ForwardRef(Rating))
+        name="read-only"
+        precision={0.5}
+        readOnly={true}
+        size="small"
+        value={3.4}
+      />
+    </div>
+    <Link
+      className="product-link"
+      to="/product/25050730M"
+    >
+      <div
+        className="title"
+      >
+        Platinum Red Stripes Easy Care Fitted Shirt
+      </div>
+    </Link>
+    <ProductPrice
+      price={
+        Object {
+          "list": null,
+          "sales": Object {
+            "currency": "USD",
+            "decimalPrice": "75.00",
+            "formatted": "$75.00",
+            "value": 75,
+          },
+        }
+      }
+    />
+  </div>
+</styled.div>
+`;

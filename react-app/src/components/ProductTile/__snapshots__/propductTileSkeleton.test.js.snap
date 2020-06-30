@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTileSkeleton should match snapshot 1`] = `
+<ContentLoader
+  viewBox="0 0 380 340"
+  width="100%"
+>
+  <rect
+    height="60%"
+    rx="5"
+    ry="5"
+    width="100%"
+    x="0"
+    y="0"
+  />
+  <rect
+    height="10"
+    rx="4"
+    ry="4"
+    width="30%"
+    x="0"
+    y="65%"
+  />
+  <rect
+    height="10"
+    rx="3"
+    ry="3"
+    width="100%"
+    x="0"
+    y="75%"
+  />
+  <rect
+    height="10"
+    rx="3"
+    ry="3"
+    width="20%"
+    x="0"
+    y="90%"
+  />
+</ContentLoader>
+`;

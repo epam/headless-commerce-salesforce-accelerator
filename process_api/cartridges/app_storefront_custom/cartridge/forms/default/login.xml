@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+	<group formid="login">
+        <field
+			formid="username"
+			label="label.input.email.profile"
+			mandatory="true"
+			max-length="50"
+			missing-error="error.message.required"
+			parse-error="error.message.parse.email.profile.form"
+			range-error="error.message.50orless"
+			regexp="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$"
+			value-error="ValueErrorText"
+			type="string"/>
+
+		<field
+			formid="password"
+			label="label.input.password.profile"
+			mandatory="true"
+			min-length="8"
+			max-length="255"
+			range-error="error.message.8_255characters"
+			value-error="error.message.currentpasswordnomatch"
+			type="string" />
+
+		<field
+			formid="rememberme"
+			label="label.checkbox.login.rememberme"
+			type="boolean"
+			checked="false"
+			default-value="false"
+			mandatory="false" />
+	</group>
+</form>

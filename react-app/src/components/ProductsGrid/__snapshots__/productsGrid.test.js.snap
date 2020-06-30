@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsGrid when products are loaded should match snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  item={true}
+  spacing={3}
+  xs={12}
+>
+  <Styled(WithStyles(ForwardRef(Grid)))
+    item={true}
+    key="436fg"
+    xs={4}
+  >
+    <ProductTile
+      pid="436fg"
+    />
+  </Styled(WithStyles(ForwardRef(Grid)))>
+  <Styled(WithStyles(ForwardRef(Grid)))
+    item={true}
+    key="768yu"
+    xs={4}
+  >
+    <ProductTile
+      pid="768yu"
+    />
+  </Styled(WithStyles(ForwardRef(Grid)))>
+  <Styled(WithStyles(ForwardRef(Grid)))
+    item={true}
+    key="789sd"
+    xs={4}
+  >
+    <ProductTile
+      pid="789sd"
+    />
+  </Styled(WithStyles(ForwardRef(Grid)))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`ProductsGrid when products are loading should match snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  item={true}
+  spacing={3}
+  xs={12}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="0"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="2"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="3"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="4"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="5"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="6"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="7"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="8"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="9"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="10"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="11"
+    xs={4}
+  >
+    <ProductTileSkeleton />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

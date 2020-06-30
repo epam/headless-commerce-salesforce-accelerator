@@ -1,0 +1,26 @@
+[
+    {
+        "id": "Content-Security-Policy",
+        "value": "frame-ancestors 'self'"
+    },
+    {
+        "id": "X-Content-Type-Options",
+        "value": "nosniff"
+    },
+    {
+      "id": "Access-Control-Allow-Credentials",
+      "value": true
+    },
+    {
+      "id": "Access-Control-Allow-Methods",
+      "value": "GET,PUT,POST,DELETE,UPDATE,OPTIONS"
+    },
+    {
+      "id": "Access-Control-Allow-Headers",
+      "value": "X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept"
+    },
+    {
+      "id": "Access-Control-Allow-Origin",
+      "value": "https://localhost:3000"
+    }
+]

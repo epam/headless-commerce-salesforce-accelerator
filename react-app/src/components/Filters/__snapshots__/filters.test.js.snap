@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandFilter it should match snapshot 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  control={
+    <ForwardRef(WithStyles)
+      checked={false}
+      checkedIcon={
+        <CheckboxCheckedIcon
+          checked={true}
+        />
+      }
+      icon={<CheckboxCheckedIcon />}
+      onChange={[Function]}
+    />
+  }
+  key="Brand"
+  label={
+    <ForwardRef(Styled(WithStyles(ForwardRef(Typography))))
+      fontFamily="OpenSans"
+      fontSize={14}
+      fontWeight="normal"
+    >
+      Brand
+    </ForwardRef(Styled(WithStyles(ForwardRef(Typography))))>
+  }
+/>
+`;
+
+exports[`ColorFilter it should match snapshot 1`] = `
+<styled.div
+  id="refinementColor"
+  key="Colors"
+  onClick={[Function]}
+  selected={false}
+>
+  <styled.div
+    backgroundColor="Colors"
+    selected={false}
+  />
+</styled.div>
+`;
+
+exports[`PriceFilter it should match snapshot 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  control={
+    <ForwardRef(WithStyles)
+      checked={false}
+      checkedIcon={
+        <RadioButtonIcon
+          checked={true}
+        />
+      }
+      icon={<RadioButtonIcon />}
+      onChange={[Function]}
+    />
+  }
+  id="price"
+  key="Price"
+  label={
+    <ForwardRef(Styled(WithStyles(ForwardRef(Typography))))
+      fontFamily="OpenSans"
+      fontSize={14}
+      fontWeight="normal"
+    >
+      Price
+    </ForwardRef(Styled(WithStyles(ForwardRef(Typography))))>
+  }
+  value="Price"
+/>
+`;
+
+exports[`SizeFilter it should match snapshot 1`] = `
+<styled.div
+  id="size"
+  key="Size"
+  onClick={[Function]}
+  selected={false}
+  width={48}
+>
+  <Styled(Styled(WithStyles(ForwardRef(Typography))))
+    selected={false}
+  >
+    Size
+  </Styled(Styled(WithStyles(ForwardRef(Typography))))>
+</styled.div>
+`;

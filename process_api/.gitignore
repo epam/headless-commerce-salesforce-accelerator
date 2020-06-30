@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+npm-debug.log
+.idea/
+dw.json
+.DS_Store
+.vscode
+.history
+*.iml
+.idea

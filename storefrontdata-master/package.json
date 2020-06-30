@@ -1,0 +1,18 @@
+{
+  "name": "refarchdata",
+  "version": "4.4.1",
+  "description": "This is a repository for the data that goes with the ref arch storefront.",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "zipData": "if [ -f demo_data_sfra.zip ] ; then rm -r demo_data_sfra.zip && zip -r demo_data_sfra.zip demo_data_sfra ; else zip -r demo_data_sfra.zip demo_data_sfra ; fi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalesforceCommerceCloud/storefrontdata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/SalesforceCommerceCloud/storefrontdata"
+}
