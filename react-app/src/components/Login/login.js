@@ -33,10 +33,9 @@ import ErrorMessagesContainer from "components/core/ErrorMessagesContainer";
 import Input from "components/core/Input/TextInput/textInput";
 import Checkbox from "components/core/Checkbox";
 import Button from "components/core/Button";
-import StyledTypography from "components/core/Typography";
 import { useHistory } from "react-router-dom";
 import { isUserAuthenticated } from "../../helpers";
-import { UserIteraction, LoginWrapper } from "./loginStyled";
+import { LoginWrapper } from "./loginStyled";
 
 const Login = ({
   loginData,
@@ -110,16 +109,6 @@ const Login = ({
       {error && <ErrorMessagesContainer errorMessage={error} />}
       {renderComponent("username", "text", "loginEmail")}
       {renderComponent("password", "password", "loginPassword")}
-      <UserIteraction>
-        {renderComponent("rememberme", null, "loginRememberMe")}
-        <StyledTypography
-          colortheme="blue"
-          fontWeight="regular"
-          cursor="pointer"
-        >
-          Forgot password?
-        </StyledTypography>
-      </UserIteraction>
       <Button margin="24px 0 0 0" minWidth="100%" onClick={handleSubmit}>
         {resources?.login}
       </Button>
