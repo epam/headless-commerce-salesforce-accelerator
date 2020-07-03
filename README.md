@@ -1,4 +1,4 @@
-# Salesforce Commerce Cloud Headless Accelerator #
+# Headless Commerce Accelerator for Salesforce Commerce Cloud #
 
 # General overview
 This implementation consists of 3 parts and divided into three folders:
