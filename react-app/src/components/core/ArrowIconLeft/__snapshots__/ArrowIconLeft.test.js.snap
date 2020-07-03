@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrowIconLeft should match snapshot 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <path
+    clipRule="evenodd"
+    d="M14.707 6.293a1 1 0 010 1.414L10.414 12l4.293 4.293a1 1 0 01-1.414 1.414l-4.859-4.859a1.2 1.2 0 010-1.697l4.859-4.858a1 1 0 011.414 0z"
+    fill="#376A9A"
+    fillRule="evenodd"
+  />
+</svg>
+`;

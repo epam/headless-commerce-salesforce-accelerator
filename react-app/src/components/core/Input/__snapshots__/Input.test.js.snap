@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumericInput should match snapshot 1`] = `
+<styled.div>
+  <Styled(InputNumber)
+    downHandler={<ForwardRef(Styled(Styled(ArrowIcon))) />}
+    precision={0}
+    type="number"
+    upHandler={<ForwardRef(Styled(Styled(ArrowIcon))) />}
+  />
+</styled.div>
+`;
+
+exports[`TextInput should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <div
+      className="label"
+    >
+       
+    </div>
+  </styled.div>
+  <styled.input
+    error=""
+    placeholder="text"
+    type="text"
+  />
+  <styled.p
+    error=""
+  >
+    helper text
+  </styled.p>
+</styled.div>
+`;

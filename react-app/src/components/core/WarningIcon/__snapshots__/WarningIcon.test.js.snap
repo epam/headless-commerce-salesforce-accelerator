@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WarningIcon should match snapshot 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <path
+    clipRule="evenodd"
+    d="M4.597 19.054L12 5.92l7.404 13.135H4.597zm6.58-15.568a.939.939 0 011.646 0l9.048 16.055c.366.648-.091 1.459-.822 1.459H2.95c-.73 0-1.188-.81-.822-1.46l9.048-16.054zM13 17a1 1 0 11-2 0 1 1 0 012 0zm0-3a1 1 0 11-2 0v-3a1 1 0 112 0v3z"
+    fill="#FFC000"
+    fillRule="evenodd"
+  />
+</svg>
+`;

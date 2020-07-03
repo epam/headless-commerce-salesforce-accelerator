@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SliderSkeleton should match snapshot 1`] = `
+<ContentLoader
+  speed={2}
+  viewBox="0 0 544 544"
+  width="100%"
+>
+  <rect
+    height="90%"
+    rx="0"
+    ry="0"
+    width="100%"
+    x="0"
+    y="0"
+  />
+  <rect
+    height="64"
+    rx="0"
+    ry="0"
+    width="64"
+    x="160"
+    y="500"
+  />
+  <rect
+    height="64"
+    rx="0"
+    ry="0"
+    width="64"
+    x="80"
+    y="500"
+  />
+  <rect
+    height="64"
+    rx="0"
+    ry="0"
+    width="64"
+    x="0"
+    y="500"
+  />
+</ContentLoader>
+`;

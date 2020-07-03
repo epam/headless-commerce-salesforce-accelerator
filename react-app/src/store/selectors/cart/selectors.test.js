@@ -49,8 +49,8 @@ describe("cart selectors", () => {
       approachingDiscounts: [],
       shipmentUUID: "gh5y5rdf",
       resources: { cancel: "Cancel" },
-      valid: true,
-      validMsg: "Adjust quantity",
+      invalid: false,
+      invalidMsg: "Adjust quantity",
     },
   };
 
@@ -100,8 +100,8 @@ describe("cart selectors", () => {
     });
   });
   describe("selectCartValidation", () => {
-    it("should return if cart is valid from store", () => {
-      expect(selectCartValidation(store)).toEqual(true);
+    it("should return false if cart is valid from store", () => {
+      expect(selectCartValidation(store)).toEqual(false);
     });
   });
   describe("selectCartValidationMsg", () => {

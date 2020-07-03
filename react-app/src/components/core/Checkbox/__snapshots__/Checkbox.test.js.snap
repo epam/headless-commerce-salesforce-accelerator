@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox should match snapshot 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  control={
+    <ForwardRef(WithStyles)
+      checked={false}
+      checkedIcon={
+        <CheckboxCheckedIcon
+          checked={true}
+        />
+      }
+      icon={<CheckboxCheckedIcon />}
+    />
+  }
+  key=""
+  label={
+    <ForwardRef(Styled(WithStyles(ForwardRef(Typography))))
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="regular"
+    >
+      
+    </ForwardRef(Styled(WithStyles(ForwardRef(Typography))))>
+  }
+/>
+`;

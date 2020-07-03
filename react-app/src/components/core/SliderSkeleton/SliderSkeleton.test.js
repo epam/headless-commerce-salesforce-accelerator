@@ -14,15 +14,13 @@
  * limitations under the License.
  */
 
-import breadCrumbsActionTypes from "store/actionsTypes/breadCrumbsActionTypes";
-import { handleActions } from "redux-actions";
+import React from "react";
+import { shallow } from "enzyme";
+import SliderSkeleton from ".";
 
-const breadCrumbsReducer = handleActions(
-  {
-    [breadCrumbsActionTypes.GET_BREADCRUMBS__START]: (state, action) =>
-      action?.breadcrumbs?.reverse(),
-  },
-  []
-);
-
-export default breadCrumbsReducer;
+const wrapped = shallow(<SliderSkeleton />);
+describe("SliderSkeleton", () => {
+  it("should match snapshot", () => {
+    expect(wrapped).toMatchSnapshot();
+  });
+});

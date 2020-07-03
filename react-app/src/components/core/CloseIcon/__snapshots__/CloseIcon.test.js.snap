@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CloseIcon should match snapshot 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <path
+    clipRule="evenodd"
+    d="M16.72 7.28a.954.954 0 00-1.348 0L12 10.65 8.628 7.28A.954.954 0 107.28 8.63L10.651 12 7.28 15.372a.954.954 0 001.35 1.349L12 13.349l3.372 3.372a.954.954 0 001.349-1.35l-3.372-3.37 3.372-3.373a.954.954 0 000-1.349z"
+    fill="#CBCDCE"
+    fillRule="evenodd"
+  />
+</svg>
+`;

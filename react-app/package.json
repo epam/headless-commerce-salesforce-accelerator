@@ -1,5 +1,5 @@
 {
-  "name": "Headless Commerce Accelerator for Salesforce Commerce Cloud",
+  "name": "headless-commerce-accelerator-for-salesforce-commerce-cloud",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,7 +36,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --collect-coverage",
+    "test": "react-scripts test --coverage --watchAll",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
@@ -51,7 +51,7 @@
       "!src/index.js"
     ],
     "coverageReporters": [
-      "text"
+      "html"
     ]
   },
   "eslintConfig": {

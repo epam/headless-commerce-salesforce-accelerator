@@ -14,15 +14,20 @@
  * limitations under the License.
  */
 
-import breadCrumbsActionTypes from "store/actionsTypes/breadCrumbsActionTypes";
-import { handleActions } from "redux-actions";
+import React from "react";
+import { shallow } from "enzyme";
+import Modal from ".";
+import ModalTitle from "./modalTitle";
 
-const breadCrumbsReducer = handleActions(
-  {
-    [breadCrumbsActionTypes.GET_BREADCRUMBS__START]: (state, action) =>
-      action?.breadcrumbs?.reverse(),
-  },
-  []
-);
-
-export default breadCrumbsReducer;
+const modal = shallow(<Modal />);
+describe("Modal", () => {
+  it("should match snapshot", () => {
+    expect(modal).toMatchSnapshot();
+  });
+});
+const modalTitle = shallow(<ModalTitle />);
+describe("ModalTitle", () => {
+  it("should match snapshot", () => {
+    expect(modalTitle).toMatchSnapshot();
+  });
+});

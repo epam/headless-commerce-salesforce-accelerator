@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditIcon should match snapshot 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <path
+    clipRule="evenodd"
+    d="M16.055 5.707a1 1 0 011.414 0l.826.827a1 1 0 010 1.414l-.786.787-2.241-2.241.787-.787zM14.52 7.241l2.241 2.24-7.469 7.47-2.24-2.241 7.468-7.47zM6.007 17.543a.4.4 0 00.453.452l2.086-.298-2.24-2.24-.299 2.086z"
+    fill="#CBCDCE"
+    fillRule="evenodd"
+  />
+</svg>
+`;

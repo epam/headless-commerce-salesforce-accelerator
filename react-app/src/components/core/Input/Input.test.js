@@ -14,15 +14,19 @@
  * limitations under the License.
  */
 
-import breadCrumbsActionTypes from "store/actionsTypes/breadCrumbsActionTypes";
-import { handleActions } from "redux-actions";
+import React from "react";
+import { shallow } from "enzyme";
+import { NumericInput, TextInput } from ".";
 
-const breadCrumbsReducer = handleActions(
-  {
-    [breadCrumbsActionTypes.GET_BREADCRUMBS__START]: (state, action) =>
-      action?.breadcrumbs?.reverse(),
-  },
-  []
-);
-
-export default breadCrumbsReducer;
+const numericInput = shallow(<NumericInput />);
+describe("NumericInput", () => {
+  it("should match snapshot", () => {
+    expect(numericInput).toMatchSnapshot();
+  });
+});
+const textInput = shallow(<TextInput />);
+describe("TextInput", () => {
+  it("should match snapshot", () => {
+    expect(textInput).toMatchSnapshot();
+  });
+});

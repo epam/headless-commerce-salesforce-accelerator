@@ -14,15 +14,26 @@
  * limitations under the License.
  */
 
-import breadCrumbsActionTypes from "store/actionsTypes/breadCrumbsActionTypes";
-import { handleActions } from "redux-actions";
+import menuSelectors from "./menuSelectors";
 
-const breadCrumbsReducer = handleActions(
-  {
-    [breadCrumbsActionTypes.GET_BREADCRUMBS__START]: (state, action) =>
-      action?.breadcrumbs?.reverse(),
-  },
-  []
-);
+describe("menu selectors", () => {
+  const store = {
+    menuCategories: {
+      categories: {
+        action: "Page-MeganavJSON",
+        queryString: "",
+        locale: "en_US",
+        categories: {},
+      },
+      isLoading: false,
+    },
+  };
 
-export default breadCrumbsReducer;
+  describe("menuSelectors selectCategories", () => {
+    it("should return categories from store", () => {
+      expect(menuSelectors.selectCategories(store)).toEqual(
+        store.menuCategories.categories.categories
+      );
+    });
+  });
+});

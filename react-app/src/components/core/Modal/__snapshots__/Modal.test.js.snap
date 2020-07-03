@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should match snapshot 1`] = `""`;
+
+exports[`ModalTitle should match snapshot 1`] = `
+<Styled(WithStyles(ForwardRef(DialogTitle)))
+  disableTypography={true}
+>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    colortheme="black"
+    fontSize={16}
+  />
+</Styled(WithStyles(ForwardRef(DialogTitle)))>
+`;

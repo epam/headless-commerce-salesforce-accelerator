@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarouselArrowIcon should match snapshot 1`] = `
+<svg
+  fill="none"
+  height="1em"
+  viewBox="0 0 24 24"
+  width="1em"
+>
+  <path
+    clipRule="evenodd"
+    d="M9.293 6.293a1 1 0 000 1.414L13.586 12l-4.293 4.293a1 1 0 101.415 1.414l4.858-4.859a1.2 1.2 0 000-1.697l-4.858-4.858a1 1 0 00-1.415 0z"
+    fill="#222"
+    fillRule="evenodd"
+  />
+</svg>
+`;

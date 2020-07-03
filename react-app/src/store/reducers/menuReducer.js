@@ -17,7 +17,7 @@
 import menuActionsTypes from "store/actionsTypes/menuActionsTypes";
 import { handleActions } from "redux-actions";
 
-const initialState = {
+export const initialState = {
   categories: [],
   isLoading: false,
 };

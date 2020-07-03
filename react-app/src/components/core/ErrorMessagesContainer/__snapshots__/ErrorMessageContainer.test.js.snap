@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessagesContainer should match snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <Styled(WithStyles(ForwardRef(Grid)))
+    item={true}
+    xs={12}
+  >
+    <ErrorIcon />
+    <Styled(WithStyles(ForwardRef(Typography)))
+      colortheme="mineshaft"
+      fontSize={12}
+      fontWeight="regular"
+      lineheight={16}
+      width="83%"
+    />
+  </Styled(WithStyles(ForwardRef(Grid)))>
+</WithStyles(ForwardRef(Grid))>
+`;

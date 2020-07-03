@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuccessIcon should match snapshot 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <path
+    d="M12 5a7 7 0 107 7l1.813-1.832a9 9 0 11-3.205-5.207L16.2 6.4A6.965 6.965 0 0012 5z"
+    fill="#CEDB56"
+  />
+  <path
+    clipRule="evenodd"
+    d="M6.71 10.19a1.003 1.003 0 00-.001 1.418l3.53 3.53 1.418 1.418 1.42-1.42 7.77-7.77a1.003 1.003 0 10-1.418-1.417l-7.77 7.77-3.53-3.53a1.003 1.003 0 00-1.419 0z"
+    fill="#CEDB56"
+    fillRule="evenodd"
+  />
+</svg>
+`;

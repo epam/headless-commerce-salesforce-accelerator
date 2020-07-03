@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltips should match snapshot 1`] = `
+<StylesProvider
+  injectFirst={true}
+>
+  <Styled(WithStyles(ForwardRef(Tooltip)))
+    arrow={true}
+    title={
+      <React.Fragment>
+        <ForwardRef(Styled(WithStyles(ForwardRef(Typography))))
+          colortheme="white"
+          fontSize={12}
+          lineheight={18}
+        />
+      </React.Fragment>
+    }
+  >
+    <Styled(WithStyles(ForwardRef(IconButton)))>
+      <Styled(InfoIcon) />
+    </Styled(WithStyles(ForwardRef(IconButton)))>
+  </Styled(WithStyles(ForwardRef(Tooltip)))>
+</StylesProvider>
+`;

@@ -47,6 +47,14 @@ describe("productsReducer", () => {
 
     const expectedState = {
       ...formatCheckoutData(checkoutMocked),
+      billingData: {
+        email: null,
+      },
+      error: [],
+      forms: null,
+      shippingData: {
+        giftMessage: {},
+      },
       isLoading: false,
     };
 

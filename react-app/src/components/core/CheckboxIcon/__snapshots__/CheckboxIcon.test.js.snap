@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxCheckedIcon should match snapshot 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <rect
+    fill="#fff"
+    height={19}
+    rx={1.5}
+    stroke="#D9DCDD"
+    width={19}
+    x={2.5}
+    y={2.5}
+  />
+</svg>
+`;

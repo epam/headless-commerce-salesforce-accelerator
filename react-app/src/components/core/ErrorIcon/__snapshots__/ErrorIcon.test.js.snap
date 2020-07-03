@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorIcon should match snapshot 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <path
+    clipRule="evenodd"
+    d="M12 5a7 7 0 100 14 7 7 0 000-14zm0-2a9 9 0 100 18 9 9 0 000-18zm1 9a1 1 0 11-2 0V9a1 1 0 112 0v3zm-1 4a1 1 0 100-2 1 1 0 000 2z"
+    fill="#DA3232"
+    fillRule="evenodd"
+  />
+</svg>
+`;

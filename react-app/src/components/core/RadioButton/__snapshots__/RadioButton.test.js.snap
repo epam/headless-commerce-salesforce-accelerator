@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton should match snapshot 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  control={
+    <ForwardRef(WithStyles)
+      checkedIcon={
+        <RadioButtonIcon
+          checked={true}
+        />
+      }
+      icon={<RadioButtonIcon />}
+    />
+  }
+  id="price"
+  label={
+    <ForwardRef(Styled(WithStyles(ForwardRef(Typography))))
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="regular"
+    />
+  }
+/>
+`;

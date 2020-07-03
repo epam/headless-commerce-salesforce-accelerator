@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckMarkIcon should match snapshot 1`] = `
+<svg
+  fill="none"
+  height={24}
+  viewBox="0 0 24 24"
+  width={24}
+>
+  <path
+    clipRule="evenodd"
+    d="M4.696 11.739a.984.984 0 000 1.391l3.478 3.478L9.565 18l1.392-1.391 8.347-8.348a.984.984 0 10-1.391-1.392l-8.348 8.348-3.478-3.478a.984.984 0 00-1.391 0z"
+    fill="#000"
+    fillRule="evenodd"
+  />
+</svg>
+`;
