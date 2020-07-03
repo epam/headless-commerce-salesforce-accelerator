@@ -1,4 +1,4 @@
-# Headless Approach Custom Catridge #
+# Headless Commerce Accelerator for Salesforce Commerce Cloud#
 
 # The latest version
 
