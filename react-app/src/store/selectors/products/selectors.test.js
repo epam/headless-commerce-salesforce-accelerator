@@ -20,6 +20,9 @@ import {
   selectProductsCategory,
   selectIsProductsLoading,
   selectProductsResultCount,
+  selectPageSize,
+  selectPagesAmount,
+  selectPageNumber,
 } from "./selectors";
 
 describe("productsSelectors", () => {
@@ -79,6 +82,40 @@ describe("productsSelectors", () => {
       expect(selectProductsResultCount(store)).toEqual(
         store.productsInfo.resultsCount
       );
+    });
+  });
+
+  describe("selectPageSize:", () => {
+    it("should return products count of results from store", () => {
+      const store = {
+        productsInfo: {
+          pageSize: 12,
+        },
+      };
+      expect(selectPageSize(store)).toEqual(store.productsInfo.pageSize);
+    });
+  });
+
+  describe("selectPagesAmount:", () => {
+    it("should return products count of results from store", () => {
+      const store = {
+        productsInfo: {
+          pageSize: 12,
+          resultsCount: 150,
+        },
+      };
+      expect(selectPagesAmount(store)).toEqual(13);
+    });
+  });
+
+  describe("selectPageNumber:", () => {
+    it("should return products count of results from store", () => {
+      const store = {
+        productsInfo: {
+          pageNumber: 0,
+        },
+      };
+      expect(selectPageNumber(store)).toEqual(store.productsInfo.pageNumber);
     });
   });
 });

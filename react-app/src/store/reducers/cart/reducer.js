@@ -75,7 +75,7 @@ const cartReducer = handleActions(
       };
     },
 
-    [types.DELETE_PRODUCT_FROM_CART__FAIL]: (state) => {
+    [types.DELETE_PRODUCT_FROM_CART__FAILURE]: (state) => {
       return state;
     },
 
@@ -91,7 +91,7 @@ const cartReducer = handleActions(
       };
     },
 
-    [types.UPDATE_PRODUCT_QUANTITY_FAIL]: (state) => {
+    [types.UPDATE_PRODUCT_QUANTITY_FROM_FAIL]: (state) => {
       return state;
     },
     PLACE_ORDER__SUCCESS: (state) => ({

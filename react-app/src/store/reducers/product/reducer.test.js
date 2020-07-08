@@ -104,11 +104,7 @@ describe("productsReducer", () => {
   });
 
   it("is expected to handle GET_PRODUCT_VARIATION", () => {
-    store.dispatch(
-      actions.getProductById(
-        "https:/test/Product-Variation?dwvar_25519274M_size=9SM&pid=25519274M&quantity=1"
-      )
-    );
+    store.dispatch(actions.getProductVariation());
 
     const expectedState = {
       ...initialState,

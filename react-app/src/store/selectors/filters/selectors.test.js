@@ -14,13 +14,18 @@
  * limitations under the License.
  */
 
-import { selectRefinements, selectSelectedRefinements } from "./selectors";
+import {
+  selectRefinements,
+  selectSelectedRefinements,
+  selectResources,
+} from "./selectors";
 
 describe("refinements selectors", () => {
   const store = {
     filterRefinements: {
       refinements: [],
       selectedRefinements: [],
+      resources: {},
     },
   };
   describe("selectRefinemets", () => {
@@ -36,6 +41,12 @@ describe("refinements selectors", () => {
       expect(selectSelectedRefinements(store)).toEqual(
         store.filterRefinements.selectedRefinements
       );
+    });
+  });
+
+  describe("selectResources", () => {
+    it("should return all selected refinements from store", () => {
+      expect(selectResources(store)).toEqual(store.filterRefinements.resources);
     });
   });
 });

@@ -38,6 +38,16 @@ describe("cart actions", () => {
     });
   });
 
+  describe("getCartDataSuccess", () => {
+    it("is expected to create ADD_PRODUCT_TO_CART_SUCCESS action", () => {
+      const data = {};
+      const expectedActions = [{ type: types.GET_CART_DATA__SUCCESS, data }];
+
+      store.dispatch(actions.getCartDataSuccess(data));
+      return expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
   describe("getCartDataFail", () => {
     it("is expected to create GET_CART_DATA__FAILURE action", () => {
       const expectedActions = [{ type: types.GET_CART_DATA__FAILURE }];
@@ -113,6 +123,70 @@ describe("cart actions", () => {
       ];
 
       store.dispatch(actions.addProductToCartSuccess(data, productName));
+      return expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
+  describe("selectShippingMethod", () => {
+    it("is expected to create SELECT_SHIPPING_METHOD action", () => {
+      const methodId = "002";
+      const shipmentUUID = "2336506e61315f4cf2d508479c";
+      const expectedActions = [
+        { type: types.SELECT_SHIPPING_METHOD, methodId, shipmentUUID },
+      ];
+
+      store.dispatch(actions.selectShippingMethod(methodId, shipmentUUID));
+      return expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
+  describe("updateProductQuantity", () => {
+    it("is expected to create UPDATE_PRODUCT_QUANTITY action", () => {
+      const id = "701642930495M";
+      const uuid = "2336506e61315f4cf2d508479c";
+      const quantity = "4";
+      const expectedActions = [
+        { type: types.UPDATE_PRODUCT_QUANTITY, id, uuid, quantity },
+      ];
+
+      store.dispatch(actions.updateProductQuantity(id, uuid, quantity));
+      return expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
+  describe("updateProductQuantitySuccess", () => {
+    it("is expected to create UPDATE_PRODUCT_QUANTITY_SUCCESS action", () => {
+      const data = {};
+      const expectedActions = [
+        { type: types.UPDATE_PRODUCT_QUANTITY_SUCCESS, data },
+      ];
+
+      store.dispatch(actions.updateProductQuantitySuccess(data));
+      return expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
+  describe("updateProductQuantityFail", () => {
+    it("is expected to create UPDATE_PRODUCT_QUANTITY_FROM_FAIL action", () => {
+      const expectedActions = [
+        { type: types.UPDATE_PRODUCT_QUANTITY_FROM_FAIL },
+      ];
+
+      store.dispatch(actions.updateProductQuantityFail());
+      return expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
+  describe("updateProductInCart", () => {
+    it("is expected to create UPDATE_PRODUCT action", () => {
+      const pid = "701642930495M";
+      const uuid = "2336506e61315f4cf2d508479c";
+      const quantity = "4";
+      const expectedActions = [
+        { type: types.UPDATE_PRODUCT, pid, uuid, quantity },
+      ];
+
+      store.dispatch(actions.updateProductInCart(pid, uuid, quantity));
       return expect(store.getActions()).toEqual(expectedActions);
     });
   });

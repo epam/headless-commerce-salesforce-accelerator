@@ -16,8 +16,10 @@
 
 import { createStore } from "redux";
 
+import checkoutMocked from "components/Checkout/__mocks__/checkoutMocked";
 import reducer, { initialState } from "./reducer";
 import actions from "../../actions/cart/actions";
+import checkoutActions from "../../actions/checkout/actions";
 
 describe("cart reducer", () => {
   let store;
@@ -134,5 +136,100 @@ describe("cart reducer", () => {
     };
 
     expect(actualState).toEqual(expectedState);
+  });
+
+  it("is expected handle DELETE_PRODUCT_FROM_CART__SUCCESS", () => {
+    const expectedState = {
+      totals: { grandTotal: "750$" },
+      shipments: { method: "Post" },
+      items: [{ id: "354657657M" }],
+      numOfShipments: 1,
+      numItems: 1,
+      hasBonusProduct: false,
+      approachingDiscounts: null,
+      variation: null,
+      isLoading: false,
+      resources: { cancel: "Cancel" },
+    };
+
+    const response = {
+      totals: { grandTotal: "750$" },
+      shipments: [{ method: "Post" }],
+      items: [{ id: "354657657M" }],
+      numOfShipments: 1,
+      numItems: 1,
+      hasBonusProduct: false,
+      approachingDiscounts: null,
+      variationAttributes: null,
+      resources: { cancel: "Cancel" },
+    };
+    store.dispatch(actions.deleteProductFromCartSuccess(response));
+
+    const actualState = store.getState();
+    expect(actualState).toEqual(expectedState);
+  });
+
+  it("is expected handle DELETE_PRODUCT_FROM_CART__FAILURE", () => {
+    store.dispatch(actions.deleteProductFromCartFail());
+
+    const actualState = store.getState();
+    const expectedState = {
+      ...initialState,
+    };
+
+    expect(actualState).toEqual(expectedState);
+  });
+
+  it("is expected handle UPDATE_PRODUCT_QUANTITY_SUCCESS", () => {
+    const expectedState = {
+      totals: { grandTotal: "750$" },
+      shipments: { method: "Post" },
+      items: [{ id: "354657657M" }],
+      numOfShipments: 1,
+      numItems: 1,
+      hasBonusProduct: false,
+      approachingDiscounts: null,
+      variation: null,
+      isLoading: false,
+      resources: { cancel: "Cancel" },
+    };
+
+    const response = {
+      totals: { grandTotal: "750$" },
+      shipments: [{ method: "Post" }],
+      items: [{ id: "354657657M" }],
+      numOfShipments: 1,
+      numItems: 1,
+      hasBonusProduct: false,
+      approachingDiscounts: null,
+      variationAttributes: null,
+      resources: { cancel: "Cancel" },
+    };
+    store.dispatch(actions.updateProductQuantitySuccess(response));
+
+    const actualState = store.getState();
+    expect(actualState).toEqual(expectedState);
+  });
+
+  it("is expected handle UPDATE_PRODUCT_QUANTITY_FROM_FAIL", () => {
+    store.dispatch(actions.updateProductQuantityFail());
+
+    const actualState = store.getState();
+    const expectedState = {
+      ...initialState,
+    };
+
+    expect(actualState).toEqual(expectedState);
+  });
+
+  it("is expected handle PLACE_ORDER__SUCCESS", () => {
+    store.dispatch(checkoutActions.placeOrderSuccess(checkoutMocked));
+
+    const expectedState = {
+      ...initialState,
+      numItems: 0,
+    };
+
+    expect(store.getState()).toEqual(expectedState);
   });
 });

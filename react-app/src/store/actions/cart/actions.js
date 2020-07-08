@@ -73,7 +73,7 @@ const actions = {
     data,
   }),
   updateProductQuantityFail: () => ({
-    type: types.UPDATE_PRODUCT_QUANTITY_FAIL,
+    type: types.UPDATE_PRODUCT_QUANTITY_FROM_FAIL,
   }),
   updateProductInCart: (pid, uuid, quantity) => ({
     type: types.UPDATE_PRODUCT,

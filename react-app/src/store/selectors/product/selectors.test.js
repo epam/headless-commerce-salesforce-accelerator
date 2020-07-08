@@ -37,6 +37,7 @@ import {
   selectProductShortDescription,
   selectProductAttributes,
   selectProductOption,
+  selectProductSwatches,
 } from "./selectors";
 
 describe("cart selectors", () => {
@@ -212,6 +213,11 @@ describe("cart selectors", () => {
       expect(selectProductOption(store)).toEqual(
         store.productDetails?.selectedOptions || null
       );
+    });
+  });
+  describe("selectProductSwatches", () => {
+    it("should return product sizes from store", () => {
+      expect(selectProductSwatches(store)).toEqual([]);
     });
   });
 });

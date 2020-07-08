@@ -26,6 +26,7 @@ import {
   selectCartResources,
   selectCartValidation,
   selectCartValidationMsg,
+  selectCartItemMsg,
 } from "./selectors";
 
 describe("cart selectors", () => {
@@ -107,6 +108,11 @@ describe("cart selectors", () => {
   describe("selectCartValidationMsg", () => {
     it("should return cart validation message from store", () => {
       expect(selectCartValidationMsg(store)).toEqual("Adjust quantity");
+    });
+  });
+  describe("selectCartItemMsg", () => {
+    it("should return cart validation message from store", () => {
+      expect(selectCartItemMsg(store)).toEqual("Adjust quantity");
     });
   });
 });
