@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payment it should match snapshot 1`] = `
+<Provider>
+  <Connect(Payment) />
+</Provider>
+`;
+
+exports[`PaymentMethodImg it should match snapshot 1`] = `
+<img
+  className="sc-fznKkj TGnMz"
+/>
+`;
+
+exports[`StyledPaymentMethods it should match snapshot 1`] = `
+<div
+  className="sc-fznyAO cuVGo"
+/>
+`;

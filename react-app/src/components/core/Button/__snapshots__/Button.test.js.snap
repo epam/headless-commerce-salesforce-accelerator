@@ -1,5 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Button link should match snapshot 1`] = `
+<button
+  className="sc-AxiKw LpBUv"
+  disabled={false}
+  size="lg"
+  type="text"
+/>
+`;
+
+exports[`Button secondary should match snapshot 1`] = `
+<button
+  className="sc-AxirZ sc-AxhCb clvXdg"
+  disabled={false}
+  size="lg"
+  type="text"
+/>
+`;
+
 exports[`Button should match snapshot 1`] = `
 <styled.button
   disabled={false}

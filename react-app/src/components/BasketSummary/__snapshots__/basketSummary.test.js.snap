@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartTotals it should match snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={8}
+  >
+    <Styled(WithStyles(ForwardRef(Typography)))
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="regular"
+      key="subTotal"
+      lineheight={24}
+      margin="8px 0 0 0"
+    >
+      subTotal
+    </Styled(WithStyles(ForwardRef(Typography)))>
+    <Styled(WithStyles(ForwardRef(Typography)))
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="regular"
+      key="shippingCost"
+      lineheight={24}
+      margin="8px 0 0 0"
+    >
+      shippingCost
+    </Styled(WithStyles(ForwardRef(Typography)))>
+    <Styled(WithStyles(ForwardRef(Typography)))
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="regular"
+      key="tax"
+      lineheight={24}
+      margin="8px 0 0 0"
+    >
+      tax
+    </Styled(WithStyles(ForwardRef(Typography)))>
+    <Styled(WithStyles(ForwardRef(Typography)))
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="semiBold"
+      key="estimatedTotal"
+      lineheight={24}
+      margin="8px 0 0 0"
+    >
+      estimatedTotal
+    </Styled(WithStyles(ForwardRef(Typography)))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={4}
+  >
+    <Styled(WithStyles(ForwardRef(Typography)))
+      align="right"
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="regular"
+      key="subTotal"
+      lineheight={24}
+      margin="8px 0 0 0"
+    >
+      $117.98
+    </Styled(WithStyles(ForwardRef(Typography)))>
+    <Styled(WithStyles(ForwardRef(Typography)))
+      align="right"
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="regular"
+      key="totalShippingCost"
+      lineheight={24}
+      margin="8px 0 0 0"
+    >
+      $7.99
+    </Styled(WithStyles(ForwardRef(Typography)))>
+    <Styled(WithStyles(ForwardRef(Typography)))
+      align="right"
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="regular"
+      key="totalTax"
+      lineheight={24}
+      margin="8px 0 0 0"
+    >
+      $6.30
+    </Styled(WithStyles(ForwardRef(Typography)))>
+    <Styled(WithStyles(ForwardRef(Typography)))
+      align="right"
+      colortheme="mineShaft"
+      fontSize={14}
+      fontWeight="semiBold"
+      key="grandTotal"
+      lineheight={24}
+      margin="8px 0 0 0"
+    >
+      $132.27
+    </Styled(WithStyles(ForwardRef(Typography)))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

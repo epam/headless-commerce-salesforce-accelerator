@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressForm it should match snapshot 1`] = `
+<Provider>
+  <AddressForm />
+</Provider>
+`;
+
+exports[`StyledEditAddressButton it should match snapshot 1`] = `
+<ForwardRef
+  className="sc-fzqBZW ixKytm"
+  theme={
+    Object {
+      "breadcrumbsH": 40,
+      "breakpoints": Object {
+        "mobile": 992,
+      },
+      "colLg": 74,
+      "colMd": 69,
+      "colSm": 60,
+      "colors": Object {
+        "alabaster": "#FBFBFB",
+        "amber": "#FFC000",
+        "athensGray": "#FAFBFC",
+        "black": "#000",
+        "blue": "#376A9A",
+        "dimGray": "#CBCDCE",
+        "gullGrey": "#A7A9AA",
+        "iron": "#D9DCDD",
+        "lightGray": "#DEE2E3",
+        "mineShaft": "#222222",
+        "miscellaneous": "linear-gradient(90deg, #E77878 0%, #EFD063 25.00%, #65D5EE 50.00%, #C083E6 75.00%, #7F6EE8 100%);",
+        "pale": "#FFEFEF",
+        "punch": "#DA3232",
+        "regentGrey": "#7D8081",
+        "rollingStone": "#7E8182",
+        "semiWhite": "rgba(255, 255, 255, 0.75)",
+        "silverChalice": "#A9A9A9",
+        "turmeric": "#C5D153",
+        "wattle": "#CEDB56",
+        "whisper": "#EBEBEB",
+        "white": "#FFFFFF",
+        "yellowGreen": "#D8E278",
+      },
+      "contentWidth": 1200,
+      "font": [Function],
+      "fontSize": 14,
+      "footerH": 331,
+      "gutter": 24,
+      "headerH": 160,
+      "navBarH": 56,
+      "pxToRem": [Function],
+      "searchBarH": 72,
+      "topBarH": 32,
+    }
+  }
+/>
+`;

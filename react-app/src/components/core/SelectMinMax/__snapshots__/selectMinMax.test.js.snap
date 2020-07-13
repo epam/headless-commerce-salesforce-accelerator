@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectMinMax should match snapshot 1`] = `
+<styled.div>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    margin="0 0 4px 0"
+  />
+  <Styled(WithStyles(ForwardRef(FormControl)))
+    error={false}
+    focused={false}
+    margin="dense"
+    variant="outlined"
+  >
+    <Styled(WithStyles(ForwardRef(Select)))
+      IconComponent={[Function]}
+      iconisrotated="true"
+      max="10"
+      min="1"
+      name=""
+      native={true}
+      onChange={[Function]}
+    >
+      <option
+        key="1"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="2"
+        value={2}
+      >
+        2
+      </option>
+      <option
+        key="3"
+        value={3}
+      >
+        3
+      </option>
+      <option
+        key="4"
+        value={4}
+      >
+        4
+      </option>
+      <option
+        key="5"
+        value={5}
+      >
+        5
+      </option>
+      <option
+        key="6"
+        value={6}
+      >
+        6
+      </option>
+      <option
+        key="7"
+        value={7}
+      >
+        7
+      </option>
+      <option
+        key="8"
+        value={8}
+      >
+        8
+      </option>
+      <option
+        key="9"
+        value={9}
+      >
+        9
+      </option>
+      <option
+        key="10"
+        value={10}
+      >
+        10
+      </option>
+    </Styled(WithStyles(ForwardRef(Select)))>
+  </Styled(WithStyles(ForwardRef(FormControl)))>
+</styled.div>
+`;
+
+exports[`SelectMinMax should match snapshot 2`] = `
+<div
+  className="sc-AxhCb gJDamB"
+>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    margin="0 0 4px 0"
+  />
+  <Styled(WithStyles(ForwardRef(FormControl)))
+    error={false}
+    focused={false}
+    margin="dense"
+    variant="outlined"
+  >
+    <Styled(WithStyles(ForwardRef(Select)))
+      IconComponent={[Function]}
+      iconisrotated="true"
+      max="10"
+      min="1"
+      name=""
+      native={true}
+      onChange={[Function]}
+    >
+      <option
+        key="1"
+        value={1}
+      >
+        1
+      </option>
+      <option
+        key="2"
+        value={2}
+      >
+        2
+      </option>
+      <option
+        key="3"
+        value={3}
+      >
+        3
+      </option>
+      <option
+        key="4"
+        value={4}
+      >
+        4
+      </option>
+      <option
+        key="5"
+        value={5}
+      >
+        5
+      </option>
+      <option
+        key="6"
+        value={6}
+      >
+        6
+      </option>
+      <option
+        key="7"
+        value={7}
+      >
+        7
+      </option>
+      <option
+        key="8"
+        value={8}
+      >
+        8
+      </option>
+      <option
+        key="9"
+        value={9}
+      >
+        9
+      </option>
+      <option
+        key="10"
+        value={10}
+      >
+        10
+      </option>
+    </Styled(WithStyles(ForwardRef(Select)))>
+  </Styled(WithStyles(ForwardRef(FormControl)))>
+</div>
+`;
+
+exports[`StyledFormControl should match snapshot 1`] = `
+<ForwardRef(FormControl)
+  className="sc-AxirZ dWHIYc"
+  classes={
+    Object {
+      "fullWidth": "MuiFormControl-fullWidth",
+      "marginDense": "MuiFormControl-marginDense",
+      "marginNormal": "MuiFormControl-marginNormal",
+      "root": "MuiFormControl-root",
+    }
+  }
+  theme={
+    Object {
+      "breadcrumbsH": 40,
+      "breakpoints": Object {
+        "mobile": 992,
+      },
+      "colLg": 74,
+      "colMd": 69,
+      "colSm": 60,
+      "colors": Object {
+        "alabaster": "#FBFBFB",
+        "amber": "#FFC000",
+        "athensGray": "#FAFBFC",
+        "black": "#000",
+        "blue": "#376A9A",
+        "dimGray": "#CBCDCE",
+        "gullGrey": "#A7A9AA",
+        "iron": "#D9DCDD",
+        "lightGray": "#DEE2E3",
+        "mineShaft": "#222222",
+        "miscellaneous": "linear-gradient(90deg, #E77878 0%, #EFD063 25.00%, #65D5EE 50.00%, #C083E6 75.00%, #7F6EE8 100%);",
+        "pale": "#FFEFEF",
+        "punch": "#DA3232",
+        "regentGrey": "#7D8081",
+        "rollingStone": "#7E8182",
+        "semiWhite": "rgba(255, 255, 255, 0.75)",
+        "silverChalice": "#A9A9A9",
+        "turmeric": "#C5D153",
+        "wattle": "#CEDB56",
+        "whisper": "#EBEBEB",
+        "white": "#FFFFFF",
+        "yellowGreen": "#D8E278",
+      },
+      "contentWidth": 1200,
+      "font": [Function],
+      "fontSize": 14,
+      "footerH": 331,
+      "gutter": 24,
+      "headerH": 160,
+      "navBarH": 56,
+      "pxToRem": [Function],
+      "searchBarH": 72,
+      "topBarH": 32,
+    }
+  }
+/>
+`;
+
+exports[`StyledSelect should match snapshot 1`] = `
+<ForwardRef(Select)
+  className="sc-AxiKw gNSnbf"
+  classes={
+    Object {
+      "disabled": "Mui-disabled",
+      "filled": "MuiSelect-filled",
+      "icon": "MuiSelect-icon",
+      "iconFilled": "MuiSelect-iconFilled",
+      "iconOpen": "MuiSelect-iconOpen",
+      "iconOutlined": "MuiSelect-iconOutlined",
+      "nativeInput": "MuiSelect-nativeInput",
+      "outlined": "MuiSelect-outlined",
+      "root": "MuiSelect-root",
+      "select": "MuiSelect-select",
+      "selectMenu": "MuiSelect-selectMenu",
+    }
+  }
+  theme={
+    Object {
+      "breadcrumbsH": 40,
+      "breakpoints": Object {
+        "mobile": 992,
+      },
+      "colLg": 74,
+      "colMd": 69,
+      "colSm": 60,
+      "colors": Object {
+        "alabaster": "#FBFBFB",
+        "amber": "#FFC000",
+        "athensGray": "#FAFBFC",
+        "black": "#000",
+        "blue": "#376A9A",
+        "dimGray": "#CBCDCE",
+        "gullGrey": "#A7A9AA",
+        "iron": "#D9DCDD",
+        "lightGray": "#DEE2E3",
+        "mineShaft": "#222222",
+        "miscellaneous": "linear-gradient(90deg, #E77878 0%, #EFD063 25.00%, #65D5EE 50.00%, #C083E6 75.00%, #7F6EE8 100%);",
+        "pale": "#FFEFEF",
+        "punch": "#DA3232",
+        "regentGrey": "#7D8081",
+        "rollingStone": "#7E8182",
+        "semiWhite": "rgba(255, 255, 255, 0.75)",
+        "silverChalice": "#A9A9A9",
+        "turmeric": "#C5D153",
+        "wattle": "#CEDB56",
+        "whisper": "#EBEBEB",
+        "white": "#FFFFFF",
+        "yellowGreen": "#D8E278",
+      },
+      "contentWidth": 1200,
+      "font": [Function],
+      "fontSize": 14,
+      "footerH": 331,
+      "gutter": 24,
+      "headerH": 160,
+      "navBarH": 56,
+      "pxToRem": [Function],
+      "searchBarH": 72,
+      "topBarH": 32,
+    }
+  }
+/>
+`;

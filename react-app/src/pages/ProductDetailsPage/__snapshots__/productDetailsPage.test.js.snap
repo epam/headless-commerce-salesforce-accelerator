@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DescriptionSkeleton should match snapshot 1`] = `
+<Provider>
+  <DescriptionSkeleton />
+</Provider>
+`;
+
+exports[`ProductDetailsContainer should match snapshot 1`] = `
+<div
+  className="sc-fznyAO JWwbI"
+/>
+`;
+
+exports[`ProductDetailsPage should match snapshot 1`] = `
+<Provider>
+  <ProductDetailsPage />
+</Provider>
+`;
+
+exports[`VariantSelectorSkeleton should match snapshot 1`] = `
+<Provider>
+  <VariantSelectorSkeleton
+    isBundle={true}
+  />
+</Provider>
+`;

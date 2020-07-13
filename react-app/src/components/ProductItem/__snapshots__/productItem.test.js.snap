@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditProductBtn it should match snapshot 1`] = `
+<Provider>
+  <EditProductBtn />
+</Provider>
+`;
+
+exports[`ProductItem it should match snapshot 1`] = `
+<Provider>
+  <ProductItem
+    availabilityMsg="Ready to order"
+    available="true"
+  />
+</Provider>
+`;
+
+exports[`ProductItemContainer it should match snapshot 1`] = `
+<Provider>
+  <ProductItemContainer />
+</Provider>
+`;
+
+exports[`RemoveProductBtn it should match snapshot 1`] = `
+<Provider>
+  <RemoveProductBtn />
+</Provider>
+`;

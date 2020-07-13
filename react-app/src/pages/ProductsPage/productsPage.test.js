@@ -16,12 +16,78 @@
 
 import React from "react";
 import { shallow } from "enzyme";
+import { Provider } from "react-redux";
+import PropTypes from "prop-types";
 
 import SearchResultsLabel from "./searchResultsLabel";
+import ProductsPage from "./productsPage";
+
+import {
+  StyledSearchResultsLabel,
+  StyledSearchQuery,
+  StyledSearchAmount,
+} from "./searchResultsLabelStyled";
+import StyledSearchResults from "./searchResultsStyled";
+import getMainTheme from "../../theme";
+
+const ReduxProvider = ({ children, reduxStore }) => (
+  <Provider store={reduxStore}>{children}</Provider>
+);
+
+ReduxProvider.propTypes = {
+  children: PropTypes.element,
+  reduxStore: PropTypes.shape({}),
+};
+
+const theme = getMainTheme();
 
 describe("SearchResultsLabel", () => {
   it("should match snapshot", () => {
     const wrapper = shallow(<SearchResultsLabel query="Bags" amount={158} />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("ProductsPage", () => {
+  it("should match snapshot", () => {
+    const wrapper = shallow(
+      <ReduxProvider>
+        <ProductsPage />
+      </ReduxProvider>
+    );
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("StyledSearchResultsLabel", () => {
+  it("should match snapshot", () => {
+    const wrapper = shallow(<StyledSearchResultsLabel theme={theme} />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("StyledSearchQuery", () => {
+  it("should match snapshot", () => {
+    const wrapper = shallow(<StyledSearchQuery theme={theme} />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("StyledSearchAmount", () => {
+  it("should match snapshot", () => {
+    const wrapper = shallow(<StyledSearchAmount theme={theme} />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("StyledSearchResults", () => {
+  it("should match snapshot", () => {
+    const wrapper = shallow(<StyledSearchResults theme={theme} />);
 
     expect(wrapper).toMatchSnapshot();
   });

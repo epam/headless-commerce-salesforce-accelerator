@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartProductLineItemsTable it should match snapshot 1`] = `
+<Provider>
+  <CartProductLineItemsTable />
+</Provider>
+`;
+
+exports[`ProductLineTableFooter it should match snapshot 1`] = `
+<Styled(WithStyles(ForwardRef(Grid)))
+  container={true}
+  height={64}
+  item={true}
+  xs={12}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={8}
+  >
+    <Styled(WithStyles(ForwardRef(Link)))
+      href="/"
+    >
+      <ArrowBackIosIcon />
+      <Styled(WithStyles(ForwardRef(Typography)))
+        colortheme="blue"
+        fontWeight="regular"
+      >
+        Continue Shopping
+      </Styled(WithStyles(ForwardRef(Typography)))>
+    </Styled(WithStyles(ForwardRef(Link)))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={2}
+  >
+    <Styled(WithStyles(ForwardRef(Typography)))
+      colortheme="mineShaft"
+      fontWeight="regular"
+      margin="0px 0px 0px 10px"
+    >
+      Subtotal:
+    </Styled(WithStyles(ForwardRef(Typography)))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={2}
+  >
+    <Styled(WithStyles(ForwardRef(Typography)))
+      margin="0px 0px 0px 15px"
+    />
+  </WithStyles(ForwardRef(Grid))>
+</Styled(WithStyles(ForwardRef(Grid)))>
+`;
+
+exports[`productLineTableHeader it should match snapshot 1`] = `<productLineTableHeader />`;

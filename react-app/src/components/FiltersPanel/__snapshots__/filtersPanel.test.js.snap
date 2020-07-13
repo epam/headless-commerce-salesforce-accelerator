@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FiltersPanel it should match snapshot 1`] = `
+<StylesProvider
+  injectFirst={true}
+/>
+`;
+
+exports[`SelectedFilters it should match snapshot 1`] = `
+<Provider>
+  <SelectedFilters
+    handleChange={[Function]}
+    resetAll={[Function]}
+    selectedFilters={Array []}
+  />
+</Provider>
+`;

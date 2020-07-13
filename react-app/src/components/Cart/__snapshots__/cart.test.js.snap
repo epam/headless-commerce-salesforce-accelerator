@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartValidationMsg it should match snapshot 1`] = `
+<Provider>
+  <CartValidationMsg />
+</Provider>
+`;
+
+exports[`EditProductDialog it should match snapshot 1`] = `
+<Modal
+  modalTitle="Edit Item"
+  submitButtonText="Update"
+>
+  <Styled(WithStyles(ForwardRef(DialogContent)))
+    dividers={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={3}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={6}
+      >
+        <Carousel />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={6}
+      >
+        <VariantSelectors />
+        <Description
+          contentMargin="0px 0px 24px 0px"
+          lineheight={24}
+          titleFontSize={14}
+          titleMargin="24px 0px 8px 0px"
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Styled(WithStyles(ForwardRef(DialogContent)))>
+</Modal>
+`;
+
+exports[`RemoveProductDialog it should match snapshot 1`] = `
+<Provider>
+  <RemoveProductDialog />
+</Provider>
+`;
+
+exports[`ShippingMethods it should match snapshot 1`] = `
+<Provider>
+  <ShippingMethods />
+</Provider>
+`;

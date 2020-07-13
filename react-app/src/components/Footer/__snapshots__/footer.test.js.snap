@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomBar it should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    2020 Komma. All rights reserved
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Footer it should match snapshot 1`] = `
+<StylesProvider
+  injectFirst={true}
+>
+  <styled.div>
+    <styled.div>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+      >
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          md={3}
+          xs={12}
+        >
+          <Logo />
+          <Styled(WithStyles(ForwardRef(Typography)))
+            fontFamily="OpenSans"
+            fontSize={14}
+            fontWeight="normal"
+            paragraph={true}
+            width="77%"
+          >
+            Reseller and market leader No.1 
+                in Europe. We provide best
+                services and communication for our clients.
+          </Styled(WithStyles(ForwardRef(Typography)))>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          key="Social"
+          xs={3}
+        >
+          <Styled(WithStyles(ForwardRef(Typography)))
+            fontFamily="OpenSans"
+            fontSize={12}
+            fontWeight="bold"
+            letterSpacing={0.02}
+            texttransform="uppercase"
+          >
+            Social
+          </Styled(WithStyles(ForwardRef(Typography)))>
+          <styled.div>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="Facebook"
+            >
+              Facebook
+            </Styled(WithStyles(ForwardRef(Link)))>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="Instagram"
+            >
+              Instagram
+            </Styled(WithStyles(ForwardRef(Link)))>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="LinkedIn"
+            >
+              LinkedIn
+            </Styled(WithStyles(ForwardRef(Link)))>
+          </styled.div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          key="Customer Service"
+          xs={3}
+        >
+          <Styled(WithStyles(ForwardRef(Typography)))
+            fontFamily="OpenSans"
+            fontSize={12}
+            fontWeight="bold"
+            letterSpacing={0.02}
+            texttransform="uppercase"
+          >
+            Customer Service
+          </Styled(WithStyles(ForwardRef(Typography)))>
+          <styled.div>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="Support"
+            >
+              Support
+            </Styled(WithStyles(ForwardRef(Link)))>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="Services"
+            >
+              Services
+            </Styled(WithStyles(ForwardRef(Link)))>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="Delivery"
+            >
+              Delivery
+            </Styled(WithStyles(ForwardRef(Link)))>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="Payment methods"
+            >
+              Payment methods
+            </Styled(WithStyles(ForwardRef(Link)))>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="My account"
+            >
+              My account
+            </Styled(WithStyles(ForwardRef(Link)))>
+          </styled.div>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(Grid))
+          item={true}
+          key="About"
+          xs={3}
+        >
+          <Styled(WithStyles(ForwardRef(Typography)))
+            fontFamily="OpenSans"
+            fontSize={12}
+            fontWeight="bold"
+            letterSpacing={0.02}
+            texttransform="uppercase"
+          >
+            About
+          </Styled(WithStyles(ForwardRef(Typography)))>
+          <styled.div>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="About us"
+            >
+              About us
+            </Styled(WithStyles(ForwardRef(Link)))>
+            <Styled(WithStyles(ForwardRef(Link)))
+              href="#"
+              key="Contacts"
+            >
+              Contacts
+            </Styled(WithStyles(ForwardRef(Link)))>
+          </styled.div>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(Grid))>
+    </styled.div>
+    <BottomBar />
+  </styled.div>
+</StylesProvider>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BreadCrumbs it should match snapshot 1`] = `
+<Provider>
+  <BreadCrumbs />
+</Provider>
+`;
+
+exports[`StyledBreadcrumbs it should match snapshot 1`] = `
+<div
+  className="sc-AxiKw kxZLlr"
+/>
+`;
+
+exports[`StyledBreadcrumbsContent it should match snapshot 1`] = `
+<div
+  className="sc-AxirZ ebUEwz"
+/>
+`;

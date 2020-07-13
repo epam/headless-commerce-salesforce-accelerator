@@ -19,6 +19,7 @@ const checkoutMocked = {
   queryString: "stage=shipping",
   locale: "en_US",
   tracking_consent: null,
+  orderID: "123456qW",
   csrf: {
     tokenName: "csrf_token",
     token:

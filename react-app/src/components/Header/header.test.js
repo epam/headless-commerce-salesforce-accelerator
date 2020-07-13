@@ -16,12 +16,27 @@
 
 import React from "react";
 import { shallow } from "enzyme";
+import { Provider } from "react-redux";
+import PropTypes from "prop-types";
 
 import Header from "./header";
 
+const ReduxProvider = ({ children, reduxStore }) => (
+  <Provider store={reduxStore}>{children}</Provider>
+);
+
+ReduxProvider.propTypes = {
+  children: PropTypes.element,
+  reduxStore: PropTypes.shape({}),
+};
+
 describe("Header", () => {
   it("should match snapshot", () => {
-    const wrapper = shallow(<Header />);
+    const wrapper = shallow(
+      <ReduxProvider>
+        <Header />
+      </ReduxProvider>
+    );
 
     expect(wrapper).toMatchSnapshot();
   });

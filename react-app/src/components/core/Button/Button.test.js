@@ -17,10 +17,36 @@
 import React from "react";
 import { shallow } from "enzyme";
 import Button from ".";
+import getMainTheme from "../../../theme";
 
-const wrapped = shallow(<Button />);
+const defaultProps = {
+  plain: true,
+  isIconOnly: true,
+};
+
+const theme = getMainTheme();
+
 describe("Button", () => {
+  const wrapped = shallow(<Button />);
   it("should match snapshot", () => {
     expect(wrapped).toMatchSnapshot();
+  });
+});
+
+describe("Button link", () => {
+  const wrapped = shallow(
+    <Button theme={theme} {...defaultProps} size="lg" variant="link" />
+  );
+  it("should match snapshot", () => {
+    expect(wrapped.dive()).toMatchSnapshot();
+  });
+});
+
+describe("Button secondary", () => {
+  const wrapped = shallow(
+    <Button theme={theme} {...defaultProps} size="lg" variant="secondary" />
+  );
+  it("should match snapshot", () => {
+    expect(wrapped.dive()).toMatchSnapshot();
   });
 });

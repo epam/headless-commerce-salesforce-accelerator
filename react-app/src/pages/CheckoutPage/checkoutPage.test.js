@@ -20,6 +20,12 @@ import { Provider } from "react-redux";
 import PropTypes from "prop-types";
 
 import CheckoutPage from "./checkoutPage";
+import CheckoutPageContainer from "./checkoutPageContainer";
+import {
+  StyledOrderedProductItems,
+  StyledOrderItemsHeading,
+} from "./checkoutPageStyled";
+import getMainTheme from "../../theme";
 
 const ReduxProvider = ({ children, reduxStore }) => (
   <Provider store={reduxStore}>{children}</Provider>
@@ -30,6 +36,8 @@ ReduxProvider.propTypes = {
   reduxStore: PropTypes.shape({}),
 };
 
+const theme = getMainTheme();
+
 describe("CheckoutPage", () => {
   it("should match snapshot", () => {
     const wrapper = shallow(
@@ -37,6 +45,30 @@ describe("CheckoutPage", () => {
         <CheckoutPage />
       </ReduxProvider>
     );
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("CheckoutPageContainer", () => {
+  it("should match snapshot", () => {
+    const wrapper = shallow(<CheckoutPageContainer theme={theme} />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("StyledOrderedProductItems", () => {
+  it("should match snapshot", () => {
+    const wrapper = shallow(<StyledOrderedProductItems theme={theme} />);
+
+    expect(wrapper).toMatchSnapshot();
+  });
+});
+
+describe("StyledOrderItemsHeading", () => {
+  it("should match snapshot", () => {
+    const wrapper = shallow(<StyledOrderItemsHeading theme={theme} />);
 
     expect(wrapper).toMatchSnapshot();
   });

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormContainer it should match snapshot 1`] = `
+<Provider>
+  <FormContainer />
+</Provider>
+`;
+
+exports[`StageNumber it should match snapshot 1`] = `
+<Provider>
+  <StageNumber />
+</Provider>
+`;

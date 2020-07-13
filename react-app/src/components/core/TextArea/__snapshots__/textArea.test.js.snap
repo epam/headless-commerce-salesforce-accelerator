@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledTextAreaLabel should match snapshot 1`] = `
+<label
+  className="sc-AxirZ dJkgVe"
+/>
+`;
+
+exports[`StyledTextarea should match snapshot 1`] = `
+<textarea
+  className="sc-AxiKw djBWfn"
+/>
+`;
+
+exports[`TextArea should match snapshot 1`] = `
+<styled.div>
+  <styled.label>
+    label
+  </styled.label>
+  <styled.textarea
+    cols={6}
+    defaultValue="some value"
+    disabled={false}
+    id="noter-text-area"
+    maxLength={55}
+    minLength={5}
+    name="name"
+    placeholder=""
+    rows={6}
+  />
+</styled.div>
+`;

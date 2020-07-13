@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmptyCart it should match snapshot 1`] = `
+<Styled(WithStyles(ForwardRef(Grid)))
+  container={true}
+>
+  <CartIcon />
+  <Styled(WithStyles(ForwardRef(Typography)))
+    colortheme="mineShaft"
+    fontSize={16}
+  >
+    Your Shopping Cart is Empty
+  </Styled(WithStyles(ForwardRef(Typography)))>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    colortheme="mineShaft"
+    fontWeight="regular"
+    margin="8px 0px 16px 0px"
+    width="25%"
+  >
+    Add at least one product to a Shopping Cart to start Checkout
+  </Styled(WithStyles(ForwardRef(Typography)))>
+  <ForwardRef
+    onClick={[Function]}
+  >
+    <Styled(WithStyles(ForwardRef(Typography)))>
+      Continue Shopping
+    </Styled(WithStyles(ForwardRef(Typography)))>
+  </ForwardRef>
+</Styled(WithStyles(ForwardRef(Grid)))>
+`;

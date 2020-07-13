@@ -11,24 +11,283 @@ exports[`NumericInput should match snapshot 1`] = `
 </styled.div>
 `;
 
+exports[`StyledCheckMarkIcon should match snapshot 1`] = `
+<CheckMarkIcon
+  className="sc-fzoLsD bwstmD"
+  theme={
+    Object {
+      "breadcrumbsH": 40,
+      "breakpoints": Object {
+        "mobile": 992,
+      },
+      "colLg": 74,
+      "colMd": 69,
+      "colSm": 60,
+      "colors": Object {
+        "alabaster": "#FBFBFB",
+        "amber": "#FFC000",
+        "athensGray": "#FAFBFC",
+        "black": "#000",
+        "blue": "#376A9A",
+        "dimGray": "#CBCDCE",
+        "gullGrey": "#A7A9AA",
+        "iron": "#D9DCDD",
+        "lightGray": "#DEE2E3",
+        "mineShaft": "#222222",
+        "miscellaneous": "linear-gradient(90deg, #E77878 0%, #EFD063 25.00%, #65D5EE 50.00%, #C083E6 75.00%, #7F6EE8 100%);",
+        "pale": "#FFEFEF",
+        "punch": "#DA3232",
+        "regentGrey": "#7D8081",
+        "rollingStone": "#7E8182",
+        "semiWhite": "rgba(255, 255, 255, 0.75)",
+        "silverChalice": "#A9A9A9",
+        "turmeric": "#C5D153",
+        "wattle": "#CEDB56",
+        "whisper": "#EBEBEB",
+        "white": "#FFFFFF",
+        "yellowGreen": "#D8E278",
+      },
+      "contentWidth": 1200,
+      "font": [Function],
+      "fontSize": 14,
+      "footerH": 331,
+      "gutter": 24,
+      "headerH": 160,
+      "navBarH": 56,
+      "pxToRem": [Function],
+      "searchBarH": 72,
+      "topBarH": 32,
+    }
+  }
+/>
+`;
+
+exports[`StyledField should match snapshot 1`] = `
+<div
+  className="sc-AxmLO ifrWen"
+  disabled={false}
+  id="quantity1"
+  name="quantity-cart"
+/>
+`;
+
+exports[`StyledInfoIcon should match snapshot 1`] = `
+<InfoIcon
+  className="sc-fzpans kNJGhA"
+  theme={
+    Object {
+      "breadcrumbsH": 40,
+      "breakpoints": Object {
+        "mobile": 992,
+      },
+      "colLg": 74,
+      "colMd": 69,
+      "colSm": 60,
+      "colors": Object {
+        "alabaster": "#FBFBFB",
+        "amber": "#FFC000",
+        "athensGray": "#FAFBFC",
+        "black": "#000",
+        "blue": "#376A9A",
+        "dimGray": "#CBCDCE",
+        "gullGrey": "#A7A9AA",
+        "iron": "#D9DCDD",
+        "lightGray": "#DEE2E3",
+        "mineShaft": "#222222",
+        "miscellaneous": "linear-gradient(90deg, #E77878 0%, #EFD063 25.00%, #65D5EE 50.00%, #C083E6 75.00%, #7F6EE8 100%);",
+        "pale": "#FFEFEF",
+        "punch": "#DA3232",
+        "regentGrey": "#7D8081",
+        "rollingStone": "#7E8182",
+        "semiWhite": "rgba(255, 255, 255, 0.75)",
+        "silverChalice": "#A9A9A9",
+        "turmeric": "#C5D153",
+        "wattle": "#CEDB56",
+        "whisper": "#EBEBEB",
+        "white": "#FFFFFF",
+        "yellowGreen": "#D8E278",
+      },
+      "contentWidth": 1200,
+      "font": [Function],
+      "fontSize": 14,
+      "footerH": 331,
+      "gutter": 24,
+      "headerH": 160,
+      "navBarH": 56,
+      "pxToRem": [Function],
+      "searchBarH": 72,
+      "topBarH": 32,
+    }
+  }
+/>
+`;
+
+exports[`StyledNumericInput should match snapshot 1`] = `
+<InputNumber
+  autoComplete="off"
+  className="sc-AxhUy dKkQbK"
+  disabled={false}
+  error="error 1"
+  errors={
+    Array [
+      "quantity-cart",
+    ]
+  }
+  focusOnUpDown={true}
+  fullWidth={true}
+  id="quantity1"
+  labelName="quantity"
+  min={-9007199254740991}
+  name="quantity-cart"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onPressEnter={[Function]}
+  parser={[Function]}
+  prefixCls="rc-input-number"
+  required={false}
+  step={1}
+  style={Object {}}
+  theme={
+    Object {
+      "breadcrumbsH": 40,
+      "breakpoints": Object {
+        "mobile": 992,
+      },
+      "colLg": 74,
+      "colMd": 69,
+      "colSm": 60,
+      "colors": Object {
+        "alabaster": "#FBFBFB",
+        "amber": "#FFC000",
+        "athensGray": "#FAFBFC",
+        "black": "#000",
+        "blue": "#376A9A",
+        "dimGray": "#CBCDCE",
+        "gullGrey": "#A7A9AA",
+        "iron": "#D9DCDD",
+        "lightGray": "#DEE2E3",
+        "mineShaft": "#222222",
+        "miscellaneous": "linear-gradient(90deg, #E77878 0%, #EFD063 25.00%, #65D5EE 50.00%, #C083E6 75.00%, #7F6EE8 100%);",
+        "pale": "#FFEFEF",
+        "punch": "#DA3232",
+        "regentGrey": "#7D8081",
+        "rollingStone": "#7E8182",
+        "semiWhite": "rgba(255, 255, 255, 0.75)",
+        "silverChalice": "#A9A9A9",
+        "turmeric": "#C5D153",
+        "wattle": "#CEDB56",
+        "whisper": "#EBEBEB",
+        "white": "#FFFFFF",
+        "yellowGreen": "#D8E278",
+      },
+      "contentWidth": 1200,
+      "font": [Function],
+      "fontSize": 14,
+      "footerH": 331,
+      "gutter": 24,
+      "headerH": 160,
+      "navBarH": 56,
+      "pxToRem": [Function],
+      "searchBarH": 72,
+      "topBarH": 32,
+    }
+  }
+  useTouch={false}
+/>
+`;
+
+exports[`StyledTextFieldInput should match snapshot 1`] = `
+<input
+  className="sc-fznyAO hukKF"
+  disabled={false}
+  id="quantity1"
+  name="quantity-cart"
+/>
+`;
+
+exports[`StyledTextFieldLabel should match snapshot 1`] = `
+<div
+  className="sc-fzplWN QChDu"
+/>
+`;
+
+exports[`StyledTextFieldLabel should match snapshot 2`] = `
+<div
+  className="sc-fzplWN QChDu"
+/>
+`;
+
+exports[`StyledTextFieldParagraph should match snapshot 1`] = `
+<p
+  className="sc-fznKkj fJuBaY"
+  disabled={false}
+  id="quantity1"
+  name="quantity-cart"
+/>
+`;
+
 exports[`TextInput should match snapshot 1`] = `
-<styled.div>
-  <styled.div>
-    <div
-      className="label"
+<styled.div
+  fullWidth={true}
+>
+  <styled.label
+    htmlFor="quantity1"
+  >
+    <Styled(WithStyles(ForwardRef(Typography)))
+      colortheme="mineShaft"
     >
-       
-    </div>
-  </styled.div>
+      quantity 
+    </Styled(WithStyles(ForwardRef(Typography)))>
+  </styled.label>
   <styled.input
-    error=""
-    placeholder="text"
+    disabled={false}
+    error="error 1"
+    errors={
+      Array [
+        "quantity-cart",
+      ]
+    }
+    id="quantity1"
+    maxLength={10000}
+    minLength={0}
+    name="quantity-cart"
     type="text"
   />
-  <styled.p
-    error=""
-  >
-    helper text
-  </styled.p>
+  <ErrorMessage
+    as="p"
+    className="error-message"
+    errors={
+      Array [
+        "quantity-cart",
+      ]
+    }
+    name="quantity-cart"
+  />
 </styled.div>
+`;
+
+exports[`TextInputLabelStyled should match snapshot 1`] = `
+<label
+  className="sc-fzokOt hPJycF"
+/>
+`;
+
+exports[`TextInputStyled should match snapshot 1`] = `
+<input
+  className="sc-fznZeY dcESMh"
+  disabled={false}
+  id="quantity1"
+  name="quantity-cart"
+/>
+`;
+
+exports[`TextInputWrapper should match snapshot 1`] = `
+<div
+  className="sc-fzqBZW bDWCQm"
+  disabled={false}
+  id="quantity1"
+  name="quantity-cart"
+/>
 `;

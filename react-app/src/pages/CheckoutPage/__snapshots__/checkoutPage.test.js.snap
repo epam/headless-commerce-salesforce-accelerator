@@ -5,3 +5,21 @@ exports[`CheckoutPage should match snapshot 1`] = `
   <CheckoutPage />
 </Provider>
 `;
+
+exports[`CheckoutPageContainer should match snapshot 1`] = `
+<div
+  className="sc-fznzqM gmNqx"
+/>
+`;
+
+exports[`StyledOrderItemsHeading should match snapshot 1`] = `
+<p
+  className="sc-fznYue cGSHdt"
+/>
+`;
+
+exports[`StyledOrderedProductItems should match snapshot 1`] = `
+<div
+  className="sc-fznOgF jCSoOE"
+/>
+`;

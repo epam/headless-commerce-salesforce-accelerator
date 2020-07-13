@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutTotal it should match snapshot 1`] = `
+<Provider>
+  <CheckoutTotal />
+</Provider>
+`;
+
+exports[`StyledCheckoutTotal it should match snapshot 1`] = `
+<div
+  className="sc-AxirZ ktnnZK"
+/>
+`;

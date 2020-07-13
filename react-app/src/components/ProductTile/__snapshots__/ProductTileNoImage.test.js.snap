@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTileNoImage should match snapshot 1`] = `
+<div
+  className="no-image"
+>
+  <div
+    className="icon"
+  >
+    <NoImage />
+  </div>
+  <span
+    className="text"
+  >
+    No image
+  </span>
+</div>
+`;

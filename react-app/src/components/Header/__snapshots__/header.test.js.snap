@@ -1,14 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header should match snapshot 1`] = `
-<StylesProvider
-  injectFirst={true}
->
-  <styled.div>
-    <TopBar />
-    <SearchBar />
-    <NavigationBar />
-  </styled.div>
-  <BreadCrumbs />
-</StylesProvider>
+<Provider>
+  <Header />
+</Provider>
 `;

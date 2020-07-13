@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShippingForm it should match snapshot 1`] = `
+<Provider>
+  <ForwardRef />
+</Provider>
+`;
+
+exports[`ShippingSummary it should match snapshot 1`] = `
+<Provider>
+  <ShippingSummary />
+</Provider>
+`;

@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ProductsPage should match snapshot 1`] = `
+<Provider>
+  <ProductsPage />
+</Provider>
+`;
+
 exports[`SearchResultsLabel should match snapshot 1`] = `
 <styled.div>
   <styled.span>
@@ -9,4 +15,28 @@ exports[`SearchResultsLabel should match snapshot 1`] = `
     158
   </styled.span>
 </styled.div>
+`;
+
+exports[`StyledSearchAmount should match snapshot 1`] = `
+<span
+  className="sc-AxiKw cHYbPL"
+/>
+`;
+
+exports[`StyledSearchQuery should match snapshot 1`] = `
+<span
+  className="sc-AxirZ ekKuNX"
+/>
+`;
+
+exports[`StyledSearchResults should match snapshot 1`] = `
+<div
+  className="sc-fzoyAV jeiXBX"
+/>
+`;
+
+exports[`StyledSearchResultsLabel should match snapshot 1`] = `
+<div
+  className="sc-AxjAm CybCx"
+/>
 `;

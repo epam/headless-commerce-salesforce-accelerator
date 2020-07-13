@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrowIcon should match snapshot 1`] = `
+<styled.div
+  margin="16px 0px 0px 0px"
+>
+  <Styled(WithStyles(ForwardRef(Typography)))
+    margin="0 0 5px 0"
+  />
+  <Styled(WithStyles(ForwardRef(FormControl)))
+    error={false}
+    focused={false}
+    fullWidth={true}
+    margin="dense"
+    variant="outlined"
+  >
+    <Styled(WithStyles(ForwardRef(Select)))
+      IconComponent={[Function]}
+      iconisrotated="false"
+      name=""
+      native={true}
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        disabled={false}
+        key="001"
+        value="001"
+      >
+        Ground (7-10 Business Days)
+      </option>
+      <option
+        disabled={false}
+        key="002"
+        value="002"
+      >
+        2-Day Express (2 Business Days)
+      </option>
+    </Styled(WithStyles(ForwardRef(Select)))>
+  </Styled(WithStyles(ForwardRef(FormControl)))>
+</styled.div>
+`;
+
+exports[`StyledErrorMsg should match snapshot 1`] = `
+<div
+  className="sc-AxhUy gkiEFc"
+/>
+`;
+
+exports[`StyledFormControl should match snapshot 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  className="sc-AxirZ OLvNS"
+  theme={
+    Object {
+      "breadcrumbsH": 40,
+      "breakpoints": Object {
+        "mobile": 992,
+      },
+      "colLg": 74,
+      "colMd": 69,
+      "colSm": 60,
+      "colors": Object {
+        "alabaster": "#FBFBFB",
+        "amber": "#FFC000",
+        "athensGray": "#FAFBFC",
+        "black": "#000",
+        "blue": "#376A9A",
+        "dimGray": "#CBCDCE",
+        "gullGrey": "#A7A9AA",
+        "iron": "#D9DCDD",
+        "lightGray": "#DEE2E3",
+        "mineShaft": "#222222",
+        "miscellaneous": "linear-gradient(90deg, #E77878 0%, #EFD063 25.00%, #65D5EE 50.00%, #C083E6 75.00%, #7F6EE8 100%);",
+        "pale": "#FFEFEF",
+        "punch": "#DA3232",
+        "regentGrey": "#7D8081",
+        "rollingStone": "#7E8182",
+        "semiWhite": "rgba(255, 255, 255, 0.75)",
+        "silverChalice": "#A9A9A9",
+        "turmeric": "#C5D153",
+        "wattle": "#CEDB56",
+        "whisper": "#EBEBEB",
+        "white": "#FFFFFF",
+        "yellowGreen": "#D8E278",
+      },
+      "contentWidth": 1200,
+      "font": [Function],
+      "fontSize": 14,
+      "footerH": 331,
+      "gutter": 24,
+      "headerH": 160,
+      "navBarH": 56,
+      "pxToRem": [Function],
+      "searchBarH": 72,
+      "topBarH": 32,
+    }
+  }
+/>
+`;
+
+exports[`StyledSelect should match snapshot 1`] = `
+<WithStyles(ForwardRef(Select))
+  className="sc-AxiKw fgWQuF"
+  fullWidth={true}
+  iconisrotated={false}
+  margin="16px 0px 0px 0px"
+  theme={
+    Object {
+      "breadcrumbsH": 40,
+      "breakpoints": Object {
+        "mobile": 992,
+      },
+      "colLg": 74,
+      "colMd": 69,
+      "colSm": 60,
+      "colors": Object {
+        "alabaster": "#FBFBFB",
+        "amber": "#FFC000",
+        "athensGray": "#FAFBFC",
+        "black": "#000",
+        "blue": "#376A9A",
+        "dimGray": "#CBCDCE",
+        "gullGrey": "#A7A9AA",
+        "iron": "#D9DCDD",
+        "lightGray": "#DEE2E3",
+        "mineShaft": "#222222",
+        "miscellaneous": "linear-gradient(90deg, #E77878 0%, #EFD063 25.00%, #65D5EE 50.00%, #C083E6 75.00%, #7F6EE8 100%);",
+        "pale": "#FFEFEF",
+        "punch": "#DA3232",
+        "regentGrey": "#7D8081",
+        "rollingStone": "#7E8182",
+        "semiWhite": "rgba(255, 255, 255, 0.75)",
+        "silverChalice": "#A9A9A9",
+        "turmeric": "#C5D153",
+        "wattle": "#CEDB56",
+        "whisper": "#EBEBEB",
+        "white": "#FFFFFF",
+        "yellowGreen": "#D8E278",
+      },
+      "contentWidth": 1200,
+      "font": [Function],
+      "fontSize": 14,
+      "footerH": 331,
+      "gutter": 24,
+      "headerH": 160,
+      "navBarH": 56,
+      "pxToRem": [Function],
+      "searchBarH": 72,
+      "topBarH": 32,
+    }
+  }
+  values={
+    Array [
+      Object {
+        "ID": "001",
+        "default": true,
+        "description": "Order received within 7-10 business days",
+        "displayName": "Ground",
+        "displayValue": "Ground (7-10 Business Days)",
+        "estimatedArrivalTime": "7-10 Business Days",
+        "selected": true,
+        "shippingCost": "$7.99",
+      },
+      Object {
+        "ID": "002",
+        "default": false,
+        "description": "Order received in 2 business days",
+        "displayName": "2-Day Express",
+        "displayValue": "2-Day Express (2 Business Days)",
+        "estimatedArrivalTime": "2 Business Days",
+        "selected": false,
+        "shippingCost": "$11.99",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`StyledSelectWrapper should match snapshot 1`] = `
+<div
+  className="sc-AxhCb ebpXXp"
+  values={
+    Array [
+      Object {
+        "ID": "001",
+        "default": true,
+        "description": "Order received within 7-10 business days",
+        "displayName": "Ground",
+        "displayValue": "Ground (7-10 Business Days)",
+        "estimatedArrivalTime": "7-10 Business Days",
+        "selected": true,
+        "shippingCost": "$7.99",
+      },
+      Object {
+        "ID": "002",
+        "default": false,
+        "description": "Order received in 2 business days",
+        "displayName": "2-Day Express",
+        "displayValue": "2-Day Express (2 Business Days)",
+        "estimatedArrivalTime": "2 Business Days",
+        "selected": false,
+        "shippingCost": "$11.99",
+      },
+    ]
+  }
+/>
+`;
